@@ -11,7 +11,7 @@
 -- A Haskell Code that formats a duration, given as a number of seconds, in a human-friendly way.
 -- 
 -- usage
--- durationHumanReadable 12 -> Just "142 days, 21 hours, 21 minutes and 18 seconds"
+-- durationHumanReadable 12345678 -> Just "142 days, 21 hours, 21 minutes and 18 seconds"
 -- show (read "12345678" :: Duration) -> “142 days, 21 hours, 21 minutes and 18 seconds”
 -----------------------------------------------------------------------------
 
